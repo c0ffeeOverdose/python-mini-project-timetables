@@ -11,7 +11,6 @@ This repository is a Mini Python project that I studied in university. which has
 
 - OS : Linux
 - Python : 3.11.8
-  - beautifulsoup4 : 4.12.3
   - mysql-connector-python : 8.3.0
   - PyQt6 : 6.7.0
   - PyQt6-Qt6 : 6.7.0
