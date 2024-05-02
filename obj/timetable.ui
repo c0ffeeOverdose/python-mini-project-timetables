@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Timetable</class>
+ <widget class="QDialog" name="Timetable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Timetable</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../assets/logo.svg</normaloff>../assets/logo.svg</iconset>
+  </property>
+  <widget class="QTableWidget" name="Table">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>1281</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Monday</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Tuesday</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Wednesday</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Thursday</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Friday</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Morning</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string/>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Afternoon</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="Label_Year">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>5</y>
+     <width>111</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Year : N/A</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_Term">
+   <property name="geometry">
+    <rect>
+     <x>134</x>
+     <y>4</y>
+     <width>121</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Term : N/A</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1137</x>
+     <y>0</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="GroupThemes">
+    <item>
+     <widget class="QLabel" name="Label_Themes">
+      <property name="text">
+       <string>Themes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="Dropdown_Themes"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>954</x>
+     <y>0</y>
+     <width>152</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="GroupThemes2">
+    <item>
+     <widget class="QLabel" name="Label_Language">
+      <property name="text">
+       <string>Language</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="Dropdown_Language"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

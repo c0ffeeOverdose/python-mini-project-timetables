@@ -1,0 +1,8 @@
+env
+temp
+__pycache__
+.mypy_cache
+obj/*_ui.py
+src/sessionId.txt
+src/timetable*.json
+.vscode
